@@ -23,14 +23,15 @@ Coming v2: hands-free, telekinetic operation 😎.
 # Get the source code.
 git clone https://github.com/boborrob/wasd-pad
 
-# Go to the local repo.
+# Go to the local repo. Make sure you're there.
 cd wasd-pad
+echo $PWD
 
 # Create a custom tabbox directory where KWin expects to find it.
 mkdir -p ~/.local/share/kwin/tabbox/wasd-pad/contents/ui
 
 # Copy the files from the local repo to the custom directory.
-cp -r wasd-pad/* ~/.local/share/kwin/tabbox/wasd-pad/
+cp -r ./* ~/.local/share/kwin/tabbox/wasd-pad/
 ```
 
 ## Activation
