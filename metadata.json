@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Name": "WASD-Pad",
+        "Description": "Enable the WASD keys for left-handed, 2D navigation of KWin's Thumbnail Tabbox. (Assumes QWERTY layout)",
+        "Icon": "preferences-system-windows",
+        
+        "Authors": [
+            {
+                "Email": "boborrob@protonmail.com",
+                "Name": "Robert Dambreville"
+            }
+        ],
+        "Id": "wasd-pad",
+        "Version": "1.0",
+        "License": "GPL",
+        "Website": "https://github.com/boborrob/wasd-pad"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "KPackageStructure": "KWin/WindowSwitcher"
+}
