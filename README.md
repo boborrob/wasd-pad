@@ -30,8 +30,10 @@ echo $PWD
 # Create a custom tabbox directory where KWin expects to find it.
 mkdir -p ~/.local/share/kwin/tabbox/wasd-pad/contents/ui
 
-# Copy the files from the local repo to the custom directory.
-cp -r ./* ~/.local/share/kwin/tabbox/wasd-pad/
+# Copy the files of interest from the local repo to the custom directory.
+cp ./metadata.json ~/.local/share/kwin/tabbox/wasd-pad/
+cp -r ./contents ~/.local/share/kwin/tabbox/wasd-pad/
+
 ```
 
 ## Activation
