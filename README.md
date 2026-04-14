@@ -4,7 +4,7 @@ A WASD-key enabled thumbnail grid task switcher for KDE Plasma 6.
 
 Easily traverse large thumbnail grids in 2D with the left hand (assumes QWERTY layout). 
 
-Coming v2: hands-free, telepathic 😎.
+Coming v2: hands-free, telekinetic operation 😎.
 
 
 ## Features
